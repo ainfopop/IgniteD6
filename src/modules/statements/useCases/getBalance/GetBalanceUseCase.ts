@@ -15,7 +15,7 @@ interface IResponse {
 }
 
 @injectable()
-export class GetBalanceUseCase {
+export class GetBalanceUseCase { 
   constructor(
     @inject('StatementsRepository')
     private statementsRepository: IStatementsRepository,

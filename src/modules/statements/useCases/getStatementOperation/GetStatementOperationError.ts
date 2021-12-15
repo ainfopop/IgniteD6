@@ -11,5 +11,5 @@ export namespace GetStatementOperationError {
     constructor() {
       super('Statement not found', 404);
     }
-  }
+  } 
 }

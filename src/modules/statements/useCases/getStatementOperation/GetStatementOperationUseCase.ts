@@ -11,7 +11,7 @@ interface IRequest {
 
 @injectable()
 export class GetStatementOperationUseCase {
-  constructor(
+  constructor( 
     @inject('UsersRepository')
     private usersRepository: IUsersRepository,
 

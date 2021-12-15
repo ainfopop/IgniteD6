@@ -12,7 +12,7 @@ export class CreateStatementUseCase {
     private usersRepository: IUsersRepository,
 
     @inject('StatementsRepository')
-    private statementsRepository: IStatementsRepository
+    private statementsRepository: IStatementsRepository 
   ) {}
 
   async execute({ user_id, type, amount, description }: ICreateStatementDTO) {

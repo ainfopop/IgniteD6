@@ -17,6 +17,6 @@ export class ShowUserProfileUseCase {
       throw new ShowUserProfileError();
     }
 
-    return user;
+    return user; 
   }
 }
